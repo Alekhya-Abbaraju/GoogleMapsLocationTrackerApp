@@ -9,7 +9,8 @@
 
  ```dependencies {
         compile 'com.github.quentin7b:android-location-tracker:4.0'
-}```
+}
+```
 
 ###### You should also add These 👇 Permissions in AndroidManifest.XML
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
