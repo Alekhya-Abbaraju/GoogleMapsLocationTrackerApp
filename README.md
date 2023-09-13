@@ -7,9 +7,9 @@
 
 ###### If You want to write in Kotlin You must Add These 👇Dependencies in build.gradile File
 
- dependencies {
+ ```dependencies {
         compile 'com.github.quentin7b:android-location-tracker:4.0'
-}
+}```
 
 ###### You should also add These 👇 Permissions in AndroidManifest.XML
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
