@@ -1,11 +1,11 @@
- This is an Android App which will be redirected To Google Maps !!
- This is written In Java Language Which is very simple..
- Here i used URI 
- ==>   Uri  uri = Uri.parse("https://play.google.com/store/apps/details?id=com.google.android.apps.maps");
+ # This is an Android App which will be redirected To Google Maps !!
+ ## This is written In Java Language Which is very simple.. Here i used URI 
 
-==>   Uri uri=Uri.parse("https://www.google.com/maps/dir/"+from+"/"+to);
+ ##  Uri  uri = Uri.parse("https://play.google.com/store/apps/details?id=com.google.android.apps.maps");
 
->> If You want to write in Kotlin You must Add These 👇Dependencies in build.gradile File
+## Uri uri=Uri.parse("https://www.google.com/maps/dir/"+from+"/"+to);
+
+## If You want to write in Kotlin You must Add These 👇Dependencies in build.gradile File
 
  dependencies {
         compile 'com.github.quentin7b:android-location-tracker:4.0'
