@@ -1,7 +1,10 @@
  # This is an Android App which will be redirected To Google Maps !!
- ## This is written In Java Language Which is very simple.. Here i used URI 
+ ## This is written In Java Language Which is very simple.. 
+ -Here i used URI 
 
- ####  Uri  uri = Uri.parse("https://play.google.com/store/apps/details?id=com.google.android.apps.maps");
+ ```
+  Uri  uri = Uri.parse("https://play.google.com/store/apps/details?id=com.google.android.apps.maps");
+```
 
 ```
 Uri uri=Uri.parse("https://www.google.com/maps/dir/"+from+"/"+to);
@@ -16,15 +19,18 @@ dependencies {
 ```
 
 ###### You should also add These 👇 Permissions in AndroidManifest.XML
+```
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+```
 
 ###### Get to know As per Your Anroid Verions ::: Android Marshmallow's new permission system
-
+```
 <permission-group
    android:name="android.permission-group.LOCATION"
    android:label="A label for your permission"
    android:description="A description for the permission" />
+```
 
 ![Screenshot (4)](https://github.com/Alekhya-Abbaraju/GoogleMapsLocationTrackerApp/assets/129656745/605244ae-71e2-4ed1-8946-504b94041e4c)
 
