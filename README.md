@@ -5,17 +5,17 @@
 
 ##### Uri uri=Uri.parse("https://www.google.com/maps/dir/"+from+"/"+to);
 
-## If You want to write in Kotlin You must Add These 👇Dependencies in build.gradile File
+###### If You want to write in Kotlin You must Add These 👇Dependencies in build.gradile File
 
  dependencies {
         compile 'com.github.quentin7b:android-location-tracker:4.0'
 }
 
->>You should also add These 👇 Permissions in AndroidManifest.XML
+###### You should also add These 👇 Permissions in AndroidManifest.XML
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
->>Get to know As per Your Anroid Verions ::: Android Marshmallow's new permission system
+###### Get to know As per Your Anroid Verions ::: Android Marshmallow's new permission system
 
 <permission-group
    android:name="android.permission-group.LOCATION"
